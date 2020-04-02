@@ -1,6 +1,6 @@
 class Solution {
     public boolean isHappy(int n) {
-        int len=0;
+
         int sum=0;//next
         int temp=n;//current
         Set<Integer> set= new HashSet<>();
