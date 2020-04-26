@@ -1,3 +1,4 @@
+//if you can jump over 0, not stuck in there, you can reach the end
 class Solution {
     public boolean canJump(int[] nums) {
         if(nums.length==0) return false;
